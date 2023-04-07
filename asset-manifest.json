@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/interview-prep-week-7-menu/static/css/main.78017551.css",
+    "main.js": "/interview-prep-week-7-menu/static/js/main.af1d3ea5.js",
+    "index.html": "/interview-prep-week-7-menu/index.html",
+    "main.78017551.css.map": "/interview-prep-week-7-menu/static/css/main.78017551.css.map",
+    "main.af1d3ea5.js.map": "/interview-prep-week-7-menu/static/js/main.af1d3ea5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78017551.css",
+    "static/js/main.af1d3ea5.js"
+  ]
+}
