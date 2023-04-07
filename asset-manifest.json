@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/interview-prep-week-7-menu/static/css/main.78017551.css",
-    "main.js": "/interview-prep-week-7-menu/static/js/main.d9fa230e.js",
+    "main.js": "/interview-prep-week-7-menu/static/js/main.eb1bfa8b.js",
     "index.html": "/interview-prep-week-7-menu/index.html",
     "main.78017551.css.map": "/interview-prep-week-7-menu/static/css/main.78017551.css.map",
-    "main.d9fa230e.js.map": "/interview-prep-week-7-menu/static/js/main.d9fa230e.js.map"
+    "main.eb1bfa8b.js.map": "/interview-prep-week-7-menu/static/js/main.eb1bfa8b.js.map"
   },
   "entrypoints": [
     "static/css/main.78017551.css",
-    "static/js/main.d9fa230e.js"
+    "static/js/main.eb1bfa8b.js"
   ]
 }
