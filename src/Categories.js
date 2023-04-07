@@ -18,6 +18,22 @@ const Categories = ({menuData, setMenuData}) => {
         })
         .catch(error => console.error(error));
         break
+      case 'lunch':
+        axios.get("https://cwbarry.pythonanywhere.com/menu/")
+        .then(response => {
+          const filtered = response.data.menu.filter(item => item.category === "lunch");
+          setMenuData(filtered)
+        })
+        .catch(error => console.error(error));
+        break
+      case 'shakes':
+        axios.get("https://cwbarry.pythonanywhere.com/menu/")
+        .then(response => {
+          const filtered = response.data.menu.filter(item => item.category === "shakes");
+          setMenuData(filtered)
+        })
+        .catch(error => console.error(error));
+        break
       default:
         axios.get("https://cwbarry.pythonanywhere.com/menu/")
         .then(response => setMenuData(response.data.menu))
