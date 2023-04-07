@@ -4,6 +4,8 @@ import Categories from './Categories';
 import data from './data';
 
 function App() {
+  const [menuData, setMenuData] = useState(null);
+
   return (
     <main>
       <section className="menu section">
@@ -11,8 +13,8 @@ function App() {
           <h2>our menu</h2>
           <div className="underline"></div>
         </div>
-        <Categories />
-        <Menu />
+        <Categories setMenuData={setMenuData}/>
+        <Menu menuData={menuData} setMenuData={setMenuData} />
       </section>
     </main>
   );

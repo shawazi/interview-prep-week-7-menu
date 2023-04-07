@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const Menu = () => {
-  const [menuData, setMenuData] = useState(null);
+const Menu = ({menuData, setMenuData}) => {
 
   useEffect(() => {
     axios.get("https://cwbarry.pythonanywhere.com/menu/")
