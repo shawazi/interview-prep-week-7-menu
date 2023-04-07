@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import axios from 'axios';
 
 const Menu = ({menuData, setMenuData}) => {
@@ -7,11 +7,11 @@ const Menu = ({menuData, setMenuData}) => {
     axios.get("https://cwbarry.pythonanywhere.com/menu/")
     .then(response => setMenuData(response.data.menu))
     .catch(error => console.error(error));
-  }, []);
+  }, [setMenuData]);
 
-
-  
-  console.log(menuData);
+  useEffect(() => {
+    console.log(menuData)
+  }, [menuData])
 
   return (
     <div className="section-center">
